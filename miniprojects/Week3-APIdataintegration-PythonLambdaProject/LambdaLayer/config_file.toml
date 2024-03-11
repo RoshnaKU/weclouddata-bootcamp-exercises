@@ -1,0 +1,15 @@
+[s3]
+bucket='wcd-lambda-project-week3'
+folder='rds-to-s3-top10-customerid'
+
+[db]
+host='c1084a2sak7l.us-east-2.rds.amazonaws.com'
+port=3306
+schema='superstore'
+database='rds-superstore'
+
+[run]
+py_script="run.py"
+
+[api]
+api_url="https://virtserver.swaggerhub.com/wcd_de_lab/top10/1.0.0/add"
